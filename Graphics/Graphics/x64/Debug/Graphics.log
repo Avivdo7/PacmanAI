@@ -1,0 +1,20 @@
+﻿  main.cpp
+  Maze.cpp
+C:\Users\hadar\Downloads\avivProject\Graphics\Graphics\Maze.cpp(30,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\hadar\Downloads\avivProject\Graphics\Graphics\Maze.cpp(30,28): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Pacman::move(void)" (?move@Pacman@@UEAAXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Pacman::draw(void)" (?draw@Pacman@@UEAAXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Ghost::move(void)" (?move@Ghost@@UEAAXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Ghost::draw(void)" (?draw@Ghost@@UEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Game::setup(void)" (?setup@Game@@QEAAXXZ) referenced in function main
+freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\hadar\Downloads\avivProject\Graphics\x64\Debug\Graphics.exe : fatal error LNK1120: 13 unresolved externals
